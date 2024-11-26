@@ -13,7 +13,7 @@ const Fertiliser = () => {
               <img
                 src={data.img}
                 alt="img"
-                className="rounded-xl  w-[11rem] h-[15rem] object-cover"
+                className="rounded-xl  w-[11rem] h-[15rem] object-cover "
               />
             </figure>
             <div className="card-body items-center text-center">
