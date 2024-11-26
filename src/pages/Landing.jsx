@@ -31,8 +31,8 @@ const Landing = () => {
           </Link>
         </div>
       </div>
-      <div className="grid md:grid-cols-2 pb-8 border-b-2 mb-4 gap-8 font-serif mt-8 mx-6">
-        <div className="">
+      <div className="grid md:grid-cols-2 pb-8 border-b-2 mb-4 gap-8 font-serif mt-8 mx-6 ">
+        <div className="mx-auto">
           {/* <Carsouel2 /> */}
           <h2 className="text-2xl text-black font-bold mb-4">Why Choose Us</h2>
           <span className="block mb-2">
