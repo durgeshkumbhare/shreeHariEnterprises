@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { stimulant } from "../data";
 
 const BioStimulatnt = () => {
@@ -6,7 +7,7 @@ const BioStimulatnt = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 ">
         {stimulant.map((data) => {
           return (
-            <div key={data.id} className=" -z-10 card bg-base-100 w-96 shadow-xl ">
+            <div key={data.id} className=" card bg-base-100 md:w-96 shadow-xl ">
               <figure className="px-10 pt-10">
                 <img
                   src={data.img}
@@ -17,8 +18,8 @@ const BioStimulatnt = () => {
               <div className="card-body items-center text-center">
                 <h2 className="card-title">{data.model}</h2>
                 <div className="card-actions text-start">
-                  <button className="btn btn-primary">Learn more about the Products</button>
-                </div>
+                <Link to={`/stimulant/${data.id}`} className="btn btn-primary">Product Details</Link>
+              </div>
               </div>
             </div>
           );

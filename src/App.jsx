@@ -1,11 +1,13 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import HomeLayout from "./pages/HomeLayout";
 import About from "./pages/About";
-import ContactUs from "./pages/ContactUs";
 import Landing from "./pages/Landing";
 import Fertiliser from "./pages/Fertiliser";
 import BioStimulatnt from "./pages/BioStimulatnt";
 import BioPesticides from "./pages/BioPesticides";
+import BioStimulantSingleProduct from "./pages/BioStimulantSingleProduct";
+import BioPesticideSingleProduct from "./pages/BioPesticideSingleProduct";
+import FertiliserSingleProduct from "./pages/FertiliserSingleProduct";
 
 const App = () => {
   const router = createBrowserRouter([
@@ -22,15 +24,19 @@ const App = () => {
           element: <About />,
         },
         {
-          path: "/product/:productId",
-          element: <About />,
+          path: "/fertiliser/:productId",
+          element: <FertiliserSingleProduct />,
         },
         {
-          path: "/contact",
-          element: <ContactUs />,
+          path: "/stimulant/:productId",
+          element: <BioStimulantSingleProduct />,
         },
         {
-          path: '/fertiliser',
+          path: "/pesticide/:productId",
+          element: <BioPesticideSingleProduct />,
+        },
+        {
+          path: "/fertiliser",
           element: <Fertiliser />,
         },
         {

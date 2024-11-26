@@ -7,7 +7,7 @@ const About = () => {
         Shree Hari Enterprise
       </h1>
       <div className="grid md:grid-cols-2 gap-4 my-4">
-        <img src={about} className=" opacity-85" />
+        <img src={about} className=" opacity-85 rounded-md" />
         <p className="text-start">
           Shree Hari Enterprises is a trusted leader in the agricultural
           industry, specializing in the import and distribution of high-quality

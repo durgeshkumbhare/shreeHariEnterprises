@@ -4,7 +4,7 @@ import { IoReorderThree } from "react-icons/io5";
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-base-100 shadow-md z-10">
+    <div className="navbar bg-base-100 shadow-md ">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -36,9 +36,6 @@ const Navbar = () => {
                 </li>
               </ul>
             </li>
-            <li>
-              <Link to="/contact">Contact Us</Link>
-            </li>
           </ul>
         </div>
         <Link>
@@ -52,8 +49,8 @@ const Navbar = () => {
           </li>
           <li>
             <details>
-              <summary>Products</summary>
-              <ul className="p-2">
+              <summary className="">Products</summary>
+              <ul className="p-2 z-30">
                 <li>
                   <Link to="/fertiliser">Fertiliser</Link>
                 </li>
