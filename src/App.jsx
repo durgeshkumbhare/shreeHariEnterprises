@@ -1,13 +1,15 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { lazy } from "react";
 import HomeLayout from "./pages/HomeLayout";
 import About from "./pages/About";
 import Landing from "./pages/Landing";
-import Fertiliser from "./pages/Fertiliser";
-import BioStimulatnt from "./pages/BioStimulatnt";
-import BioPesticides from "./pages/BioPesticides";
+const Fertiliser = lazy(() => import("./pages/Fertiliser"));
+const BioStimulatnt = lazy(()=> import ("./pages/BioStimulatnt"))
+const BioPesticides = lazy(()=> import("./pages/BioPesticides"))
 import BioStimulantSingleProduct from "./pages/BioStimulantSingleProduct";
 import BioPesticideSingleProduct from "./pages/BioPesticideSingleProduct";
 import FertiliserSingleProduct from "./pages/FertiliserSingleProduct";
+
 
 const App = () => {
   const router = createBrowserRouter([
