@@ -34,7 +34,7 @@ const Footer = () => {
         </div>
         <div>
           <h1 className="text-lg font-serif mb-2 ">Company</h1>
-          <Link href="/about" className="block font-serif hover:text-gray-600">
+          <Link to="/about" className="block font-serif hover:text-gray-600">
             About us
           </Link>
         </div>
