@@ -19,8 +19,14 @@ const FertiliserSingleProduct = () => {
             {reccomendedCrops}
           </p>
           <p>
-            <span className="font-bold ">Packaging:</span>
-            {packaging}
+            {packaging ? (
+              <p>
+                <span className="font-bold ">Packaging:</span>
+                {packaging}
+              </p>
+            ) : (
+              ""
+            )}
           </p>
         </div>
       </div>
