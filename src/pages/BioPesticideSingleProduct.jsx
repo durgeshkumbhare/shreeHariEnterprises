@@ -9,7 +9,7 @@ const BioPesticideSingleProduct = () => {
   return (
     <div className="m-8">
       <h1 className="font-bold text-2xl">{model}</h1>
-      <div className="grid md:grid-cols-2 max-w-[60rem] mx-auto mt-8 gap-4">
+      <div className="grid md:grid-cols-2 max-w-[60rem] mx-auto mt-8 gap-4 border-b-2 pb-6 border-black">
         <img src={img} className="object-cover w-[13rem] h-[20rem]" />
         <div>
           <h4 className="text-lg mb-2 font-bold">{model}</h4>

@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="bg-gray-100 font-sans">
       <div className="  text-black tracking-wider p-4 grid md:grid-cols-3 gap-4">
         <div>
-          <h1 className="flex flex-col text-3xl font-serif font-bold">
+          <h1 className="flex flex-col text-3xl  font-bold">
             Shree Hari Enterprise
           </h1>
           <h3>
@@ -22,18 +22,18 @@ const Footer = () => {
           </p>
         </div>
         <div>
-          <h1 className="text-lg font-serif mb-4">Contact Us</h1>
+          <h1 className="text-lg  mb-4">Contact Us</h1>
           <p className="font-serif hover:text-gray-600">
             <span className="font-bold">Email: </span>
             shreeharienterprises@gmail.com
           </p>
-          <p className="font-serif hover:text-gray-600">
+          <p className=" hover:text-gray-600">
             <span className="font-bold">Mobile NO. : </span>7517043603
           </p>
         </div>
         <div>
           <h1 className="text-lg font-serif mb-4 ">Company</h1>
-          <a href="/" className="block font-serif hover:text-gray-600">
+          <a href="/about" className="block font-serif hover:text-gray-600">
             About us
           </a>
         </div>

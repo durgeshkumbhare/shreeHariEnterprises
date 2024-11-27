@@ -19,11 +19,13 @@ import azfrasco from "./assets/images/tradecorp-AZ-fresco-1.jpg";
 import fertilionCombi from "./assets/images/fetrilon-combi2-alu-bag-1kg.png.webp";
 import Zing from "./assets/images/Basfoliar-Zing.png.webp";
 import nutri946 from "./assets/images/0-9-46.png.jpg";
-import phylgree200 from "./assets/images/Phylgreen-200-1L.jpg";
+import phylgree200 from "./assets/images/Phylgreen-200.png.webp";
 import intake from "./assets/images/intake.jpeg";
 import humistartWG from "./assets/images/Humitsar-WG.png.jpg";
 import basfoliarBORO from "./assets/images/Basfoliar boro sl.png.webp";
 import basfoliarSL from "./assets/images/basfoliar-cabmg-sl_rev1.png.webp";
+import nova1448 from "./assets/images/nov1448.webp";
+import proPotash from "./assets/images/proPotash.png";
 
 import basfoliaralgae from "./assets/images/basfoliar-algae-2-sl-etk-10l.png.jpg";
 import basfoliarkelp from "./assets/images/basfoliarKelpOSl.jpg";
@@ -235,6 +237,16 @@ export const fertliser = [
   },
   {
     id: nanoid(),
+    img: nova1448,
+    model: "Compo Expert NovaTec 14-48",
+    description:
+      "Compo Expert NovaTec 14-48 is a high-phosphorus, water-soluble fertilizer (NPK: 14-48-0) designed to enhance root development, flowering, and crop yields. Powered by NovaTec technology, it ensures efficient nutrient uptake and reduced losses. Packaged in 25 kg moisture-resistant bags, it is suitable for vegetables, fruits, cereals, and ornamental plants. Easily applied via soil, drip irrigation, or foliar spray, its high solubility and phosphorus content make it ideal for boosting early growth and overall plant performance.",
+    reccomendedCrops:
+      "Wheat, Maize, Rice, Soybean, Cotton, Tomato, Potato, Onion, Cucumber, Leafy Greens, Grapes, Citrus, Apples, Mangoes, Bananas, Berries, Groundnut, Mustard, Sunflower",
+    packaging: "1kg, 5kg, 25kg",
+  },
+  {
+    id: nanoid(),
     img: basfoliar,
     model: "Compo Expert Basfoliar SP 00.40.37",
     description:
@@ -279,6 +291,16 @@ export const fertliser = [
     model: "Basfoliar Zing WP",
     description:
       "Basfoliar Zing WP is a high-quality, water-soluble fertilizer containing Zinc (Zn) in a concentrated form, designed to prevent and correct zinc deficiencies in crops. Zinc plays a crucial role in enzyme activation, protein synthesis, and growth hormone production, making it essential for plant growth, root development, and yield improvement. This product is ideal for foliar applications, ensuring rapid absorption and effectiveness.",
+    reccomendedCrops:
+      "Wheat, Maize, Rice, Soybean, Cotton, Tomato, Potato, Onion, Cucumber, Leafy Greens, Grapes, Citrus, Apples, Mangoes, Bananas, Berries, Groundnut, Mustard, Sunflower",
+    packaging: "500g, 1kg, 5kg",
+  },
+  {
+    id: nanoid(),
+    img: proPotash,
+    model: "Adasca Pro Potash",
+    description:
+      "Adasca Pro Potash is a premium potassium fertilizer formulated to enhance crop quality, resilience, and yield. With a high potassium content (typically 50-60% K₂O), it supports critical processes like sugar synthesis, water regulation, and stress tolerance in plants. Chloride-free and highly soluble, it is ideal for sensitive crops like tobacco, berries, and potatoes. Adasca Pro Potash can be applied via soil, fertigation, or foliar spray, making it versatile for various farming practices. Suitable for fruits, vegetables, and field crops, it ensures improved flowering, fruit development, and overall productivity.",
     reccomendedCrops:
       "Wheat, Maize, Rice, Soybean, Cotton, Tomato, Potato, Onion, Cucumber, Leafy Greens, Grapes, Citrus, Apples, Mangoes, Bananas, Berries, Groundnut, Mustard, Sunflower",
     packaging: "500g, 1kg, 5kg",
