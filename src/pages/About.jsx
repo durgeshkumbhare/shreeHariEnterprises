@@ -1,4 +1,4 @@
-import about from '../assets/images/about.jpg'
+import about from "../assets/images/about.jpg";
 
 const About = () => {
   return (
@@ -8,22 +8,30 @@ const About = () => {
       </h1>
       <div className="grid md:grid-cols-2 gap-4 my-4">
         <img src={about} className=" opacity-85 rounded-md" />
-        <p className="text-start">
-          Shree Hari Enterprises is a trusted leader in the agricultural
-          industry, specializing in the import and distribution of high-quality
-          fertilizers, stimulants, and pesticides. With a commitment to
-          enhancing modern farming practices, we bring innovative solutions to
-          farmers, empowering them to achieve healthier crops and higher yields.
-          At Shree Hari Enterprises, we partner with globally renowned
-          manufacturers to ensure our products meet the highest standards of
-          quality and effectiveness. Our diverse portfolio is designed to
-          address the unique needs of various crops, offering solutions that
-          promote sustainable growth, improve soil health, and protect plants
-          from pests and diseases. We pride ourselves on providing farmers with
-          products that deliver reliable results and value. Through our
-          extensive network, we ensure timely availability and expert guidance,
-          enabling growers to maximize their agricultural potential.
-        </p>
+        <div className="text-start">
+          <p className="pb-2">
+            <span className="font-bold">Shree Hari Enterprises</span> is a trusted leader in the agricultural
+            industry, specializing in the import and distribution of
+            high-quality fertilizers, stimulants, and pesticides. With a
+            commitment to enhancing modern farming practices, we bring
+            innovative solutions to farmers, empowering them to achieve
+            healthier crops and higher yields.
+          </p>
+          <p className="pb-2">
+            At <span className="font-bold">Shree Hari Enterprises</span> , we partner with globally renowned
+            manufacturers to ensure our products meet the highest standards of
+            quality and effectiveness. Our diverse portfolio is designed to
+            address the unique needs of various crops, offering solutions that
+            promote sustainable growth, improve soil health, and protect plants
+            from pests and diseases.
+          </p>
+          <p className="pb-2">
+            We pride ourselves on providing farmers with products that deliver
+            reliable results and value. Through our extensive network, we ensure
+            timely availability and expert guidance, enabling growers to
+            maximize their agricultural potential.
+          </p>
+        </div>
       </div>
       <div className="text-start mt-3 mb-8 max-w-[55rem]">
         <h1 className="text-2xl font-bold mb-2">
