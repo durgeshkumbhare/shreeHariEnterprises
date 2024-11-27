@@ -1,4 +1,5 @@
 import { FaRegCopyright } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -32,10 +33,10 @@ const Footer = () => {
           </p>
         </div>
         <div>
-          <h1 className="text-lg font-serif mb-4 ">Company</h1>
-          <a href="/about" className="block font-serif hover:text-gray-600">
+          <h1 className="text-lg font-serif mb-2 ">Company</h1>
+          <Link href="/about" className="block font-serif hover:text-gray-600">
             About us
-          </a>
+          </Link>
         </div>
       </div>
       <div className="text-center flex border-t-2 border-b-2 border-black mt-6 mx-4 py-2 mb-2 text-black">

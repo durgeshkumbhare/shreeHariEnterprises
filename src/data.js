@@ -25,7 +25,7 @@ import humistartWG from "./assets/images/Humitsar-WG.png.jpg";
 import basfoliarBORO from "./assets/images/Basfoliar boro sl.png.webp";
 import basfoliarSL from "./assets/images/basfoliar-cabmg-sl_rev1.png.webp";
 import nova1448 from "./assets/images/nov1448.webp";
-import proPotash from "./assets/images/proPotash.png";
+import proPotash from "./assets/images/proPotash.jpg";
 
 import basfoliaralgae from "./assets/images/basfoliar-algae-2-sl-etk-10l.png.jpg";
 import basfoliarkelp from "./assets/images/basfoliarKelpOSl.jpg";
@@ -303,6 +303,6 @@ export const fertliser = [
       "Adasca Pro Potash is a premium potassium fertilizer formulated to enhance crop quality, resilience, and yield. With a high potassium content (typically 50-60% K₂O), it supports critical processes like sugar synthesis, water regulation, and stress tolerance in plants. Chloride-free and highly soluble, it is ideal for sensitive crops like tobacco, berries, and potatoes. Adasca Pro Potash can be applied via soil, fertigation, or foliar spray, making it versatile for various farming practices. Suitable for fruits, vegetables, and field crops, it ensures improved flowering, fruit development, and overall productivity.",
     reccomendedCrops:
       "Wheat, Maize, Rice, Soybean, Cotton, Tomato, Potato, Onion, Cucumber, Leafy Greens, Grapes, Citrus, Apples, Mangoes, Bananas, Berries, Groundnut, Mustard, Sunflower",
-    packaging: "500g, 1kg, 5kg",
+    packaging: " 48gm",
   },
 ];

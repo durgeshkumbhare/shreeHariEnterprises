@@ -24,7 +24,7 @@ const Carsouel2 = () => {
     <div>
       <div className="flex justify-between">
         <h1 className="text-2xl my-4 font-bold">Our Products</h1>
-        <Link to='fertiliser' className="btn btn-primary">Buy Now</Link>
+        <Link to='fertiliser' className="btn btn-primary">Learn More</Link>
       </div>
       <div className="carousel rounded-box gap-4 border shadow-md p-4">
         <div className="carousel-item ">
