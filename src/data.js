@@ -145,7 +145,7 @@ export const stimulant = [
   {
     id: nanoid(),
     img: humistartWG,
-    model: "Hamstr WG",
+    model: "Humistar WG",
     description:
       "Hamstr WG is a water-dispersible granule (WG) formulation that provides superior pest and disease management. It is specially developed to protect crops from a wide range of threats, ensuring better plant health and higher yields. Hamstr WG is designed for easy application and rapid action, making it an excellent choice for modern farming practices.",
     reccomendedCrops:
