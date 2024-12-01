@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-            <div className="text-3xl bg-none" >
+            <div className="text-4xl bg-none" >
               <IoReorderThree />
             </div>
           </div>
